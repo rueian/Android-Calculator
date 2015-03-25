@@ -69,6 +69,7 @@ public class MainActivity extends Activity implements View.OnLongClickListener {
     }
 
     private void onDelete() {
+        Toast.makeText(this, "長按可以清除", Toast.LENGTH_SHORT).show();
         Editable inputText = inputField.getEditableText();
         int length = inputText.length();
         if (inputText.length() > 0) {

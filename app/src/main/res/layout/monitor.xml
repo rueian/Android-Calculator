@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
     android:id="@+id/monitor"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:minHeight="150dip"
     android:background="@color/monitor_bg"
     android:elevation="4dip">
 
-    <EditText
+    <me.grantland.widget.AutofitTextView
         android:id="@+id/input"
-        android:inputType="text|textNoSuggestions"
+        android:gravity="bottom|end"
         android:textColor="@color/monitor_input"
+        android:singleLine="true"
+        android:textSize="50sp"
+        autofit:minTextSize="8sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <EditText
+    <me.grantland.widget.AutofitTextView
         android:id="@+id/result"
-        android:inputType="none"
-        android:focusable="false"
+        android:gravity="bottom|end"
         android:textColor="@color/monitor_input"
+        android:singleLine="true"
+        android:textSize="50sp"
+        autofit:minTextSize="8sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/input"/>

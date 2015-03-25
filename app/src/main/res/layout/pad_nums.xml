@@ -4,7 +4,8 @@
     style="@style/PadLayoutStyle.Nums"
     android:background="@color/pad_nums"
     android:columnCount="3"
-    android:rowCount="4">
+    android:rowCount="5"
+    android:elevation="4dip">
 
     <Button
         android:id="@+id/btn_7"
@@ -75,8 +76,27 @@
     <Button
         android:id="@+id/btn_eq"
         style="@style/PadBtnStyle.Num.Equals"
-        android:contentDescription="="
+        android:background="@drawable/pad_btn_spec_bg"
         android:onClick="onBtnClick"
         android:text="=" />
+
+    <Button
+        android:id="@+id/btn_lq"
+        style="@style/PadBtnStyle.Num"
+        android:onClick="onBtnClick"
+        android:text="(" />
+
+    <Button
+        android:id="@+id/btn_rq"
+        style="@style/PadBtnStyle.Num"
+        android:onClick="onBtnClick"
+        android:text=")" />
+
+    <Button
+        android:id="@+id/btn_del"
+        style="@style/PadBtnStyle.Num"
+        android:background="@drawable/pad_btn_spec_bg"
+        android:onClick="onBtnClick"
+        android:text="C" />
 
 </com.rueian.calc.PadLayout>

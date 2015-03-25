@@ -3,5 +3,7 @@
     <color name="monitor_bg">#FFF</color>
     <color name="monitor_input">#000</color>
     <color name="pad_nums">#CCC</color>
-    <color name="pad_btn_ripple_color">#33FFFFFF</color>
+    <color name="pad_ops">#BBB</color>
+    <color name="pad_btn_ripple_color">#FFF</color>
+    <color name="pad_btn_spec_color">#ff007fff</color>
 </resources>

@@ -9,7 +9,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <include
-        layout="@layout/pad_nums"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <include layout="@layout/pad_nums"/>
+
+        <include layout="@layout/pad_ops" />
+
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

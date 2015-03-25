@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
         <!-- Customize your theme here. -->
     </style>
 
@@ -19,13 +19,36 @@
     </style>
 
     <style name="PadLayoutStyle.Nums">
-        <item name="android:layout_margin">4dip</item>
+        <item name="android:layout_margin">0dip</item>
         <item name="android:textSize">32sp</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">264</item>
+        <item name="android:paddingTop">12dip</item>
+        <item name="android:paddingBottom">20dip</item>
+        <item name="android:paddingStart">12dip</item>
+        <item name="android:paddingEnd">12dip</item>
+    </style>
+
+    <style name="PadLayoutStyle.Ops">
+        <item name="android:layout_margin">0dip</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">96</item>
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:paddingBottom">24dip</item>
+        <item name="android:paddingStart">0dip</item>
+        <item name="android:paddingEnd">0dip</item>
     </style>
 
     <style name="PadBtnStyle" parent="@android:style/Widget.Material.Light.Button.Borderless">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:background">@drawable/pad_btn_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:minWidth">0dip</item>
+        <item name="android:minHeight">0dip</item>
     </style>
 
     <style name="PadBtnStyle.Num">
@@ -35,6 +58,11 @@
 
     <style name="PadBtnStyle.Num.Equals">
         <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="PadBtnStyle.Op">
+        <item name="android:layout_margin">8dip</item>
+        <item name="android:textSize">25sp</item>
     </style>
 
 

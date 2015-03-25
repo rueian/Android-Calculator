@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rueian.calc.PadLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pad_ops"
+    style="@style/PadLayoutStyle.Ops"
+    android:background="@color/pad_ops"
+    android:columnCount="1"
+    android:rowCount="6">
+
+    <Button
+        android:id="@+id/btn_plus"
+        style="@style/PadBtnStyle.Op"
+        android:onClick="onBtnClick"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btn_minus"
+        style="@style/PadBtnStyle.Op"
+        android:onClick="onBtnClick"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/btn_times"
+        style="@style/PadBtnStyle.Op"
+        android:onClick="onBtnClick"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/btn_division"
+        style="@style/PadBtnStyle.Op"
+        android:onClick="onBtnClick"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/btn_remainder"
+        style="@style/PadBtnStyle.Op"
+        android:onClick="onBtnClick"
+        android:text="%" />
+
+    <Button
+        android:id="@+id/btn_power"
+        style="@style/PadBtnStyle.Op"
+        android:onClick="onBtnClick"
+        android:text="^" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_lq"-->
+        <!--style="@style/PadBtnStyle.Op"-->
+        <!--android:onClick="onBtnClick"-->
+        <!--android:text="(" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_rq"-->
+        <!--style="@style/PadBtnStyle.Op"-->
+        <!--android:onClick="onBtnClick"-->
+        <!--android:text=")" />-->
+
+
+</com.rueian.calc.PadLayout>
